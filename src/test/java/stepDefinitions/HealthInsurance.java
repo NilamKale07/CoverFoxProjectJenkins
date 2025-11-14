@@ -48,7 +48,7 @@ public class HealthInsurance {
 
 	@When("I Provide age as {string} and click on next button")
 	public void i_provide_age_as_and_click_on_next_button(String age) throws EncryptedDocumentException, IOException, InterruptedException {
-		Thread.sleep(7000);
+		Thread.sleep(9000);
 		System.out.println("I Provide age as "+age+" and click on next button");
 	   coverfoxMemberDetails.handleAgeDropDown(age);
 	   coverfoxMemberDetails.clickOnNextButton();
