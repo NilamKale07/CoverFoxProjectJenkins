@@ -12,8 +12,8 @@ import io.cucumber.testng.CucumberOptions;
 		},
 
 		glue = { "stepDefinitions","hooks" }, 
-		plugin = {"pretty","html:Cucumber-reports/reports.html",
-				"json:Cucumber-reports/reports.json"}, 
+		plugin = {"pretty","html:target/Cucumber-reports/reports.html",
+				"json:target/Cucumber-reports/reports.json"}, 
 		publish = true,
 		dryRun=false)
 
