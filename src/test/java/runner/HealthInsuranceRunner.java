@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 		},
 
 		glue = { "stepDefinitions","hooks" }, 
-		plugin = {"pretty","html:target/Cucumber-reports/reports.html"}, publish = true,
+		plugin = {"pretty","html:target/Cucumber-reports/reports.json"}, publish = true,
 		dryRun=false)
 
 public class HealthInsuranceRunner extends AbstractTestNGCucumberTests {
